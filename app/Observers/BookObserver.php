@@ -15,6 +15,6 @@ class BookObserver
     		'name' => $Book->name,
     		'img' => $Book->img
     	];
-        \Mail::to($emails)->send( new MailNewsletter($data));
+        //\Mail::to($emails)->send( new MailNewsletter($data));
     }
 }
